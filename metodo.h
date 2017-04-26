@@ -33,6 +33,7 @@ void Simpson::calculos() {
       z3 += z2[i] * inc;
     }
     //SUMATORIA DE LOS EXTREMOS + LO DE EN MEDIO
+    
     res = (z3 + z2[0] + z2[n]) * z1;
     std::cout <<"R: " << res <<std::endl;
 }
